@@ -1,0 +1,2 @@
+# LPU-GenAi
+GenAI transcripts ;)
