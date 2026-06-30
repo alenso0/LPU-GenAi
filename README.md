@@ -2,9 +2,6 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:6366F1,100:22D3EE&amp;height=180&amp;section=header&amp;text=LPU%20GenAI&amp;fontSize=46&amp;fontColor=ffffff&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Notes%20%2B%20notebooks%20%2B%20transcripts&amp;descAlignY=58&amp;descSize=18" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;pause=1000&amp;color=22D3EE&amp;center=true&amp;vCenter=true&amp;width=480&amp;lines=GenAI+transcripts+%3B%29;Notes+auto-synced+as+PDFs;Mon-Fri+10%3A00+%2B+16%3A00+IST" alt="typing animation" />
-</p>
 
 <p align="center">
   <img src="https://github.com/alenso0/LPU-GenAi/actions/workflows/sync-notes.yml/badge.svg" alt="Notes sync status" />
