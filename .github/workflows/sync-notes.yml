@@ -61,6 +61,7 @@ jobs:
             echo "No changes to commit."
           else
             git commit -m "chore: sync notes from v0idgy/LPU_GenAI" -m "Done automatically by NotBOT 🤖"
+            git pull --rebase origin main
             git push
           fi
 
