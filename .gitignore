@@ -3,6 +3,24 @@ venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# relocated caches (see cache/README) - do not commit model weights/downloads
+cache/
+
+# local model weights / checkpoints pulled by notebooks (e.g. Ollama, diffusers, HF hub)
+# - keep small course-data files (csv/pdf/txt in NLP, NN, Notes, GEN-AI) out of this net
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
 
 # OS / editor junk
 .DS_Store
@@ -12,3 +30,7 @@ Thumbs.db
 
 # env files
 .env
+.env.*
+
+# logs
+*.log

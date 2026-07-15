@@ -16,7 +16,14 @@
 | Path | Description |
 |---|---|
 | `Notes/` | Course notes, auto-synced as PDFs (see below) |
+| `NLP/` | Natural Language Processing basics — SMS spam classification, GloVe embeddings |
+| `NN/` | Neural network fundamentals — perceptron, ANN, CNN, RNN, from-scratch implementations |
+| `GEN-AI/` | Generative AI notebooks — BERT, diffusion models, RAG (LangChain + from-scratch with Ollama) |
+| `OLLAMA_APP/` | Standalone Python project scaffold for an Ollama-based app (uv-managed) |
+| `scripts/` | Automation scripts (e.g. `sync_notes.py` for the Notes auto-sync below) |
 | `requirements.txt` | Python dependencies |
+
+Folders with their own setup steps or extra data files have their own `README.md` — see [`NLP/README.md`](NLP/README.md) and [`GEN-AI/README.md`](GEN-AI/README.md).
 
 ## Notes auto-sync
 
