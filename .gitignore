@@ -28,9 +28,19 @@ Thumbs.db
 .vscode/
 .idea/
 
-# env files
+# env files / secrets — never commit real credentials, pass them via env vars instead
 .env
 .env.*
+*.pem
+*.key
+id_rsa*
+*.pfx
+*_rsa
+*_dsa
+*_ed25519
+credentials.json
+secrets.json
+*.credentials
 
 # logs
 *.log

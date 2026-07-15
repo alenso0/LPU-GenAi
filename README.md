@@ -23,7 +23,7 @@
 | `scripts/` | Automation scripts (e.g. `sync_notes.py` for the Notes auto-sync below) |
 | `requirements.txt` | Python dependencies |
 
-Folders with their own setup steps or extra data files have their own `README.md` — see [`NLP/README.md`](NLP/README.md) and [`GEN-AI/README.md`](GEN-AI/README.md).
+Folders with their own setup steps or extra data files have their own `README.md` — see [`NLP/README.md`](NLP/README.md), [`GEN-AI/README.md`](GEN-AI/README.md), and [`OLLAMA_APP/README.md`](OLLAMA_APP/README.md).
 
 ## Notes auto-sync
 
@@ -45,6 +45,11 @@ python -m venv .venv
 pip install -r requirements.txt
 jupyter notebook
 ```
+
+## Privacy & secrets
+
+This repo is a public collection of coursework notebooks — no real API keys, credentials, or personal data should ever be committed.
+
 
 ---
 
